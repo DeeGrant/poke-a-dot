@@ -1,0 +1,24 @@
+{
+  "name": "poke-a-dot",
+  "version": "1.0.0",
+  "description": "A silly game with a lot of 'points' :)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeeGrant/poke-a-dot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeeGrant/poke-a-dot/issues"
+  },
+  "homepage": "https://github.com/DeeGrant/poke-a-dot#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongo": "^0.1.0"
+  }
+}
