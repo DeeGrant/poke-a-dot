@@ -4,7 +4,8 @@
   "description": "A silly game with a lot of 'points' :)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   "dependencies": {
     "dotenv": "^12.0.3",
     "express": "^4.17.2",
-    "mongo": "^0.1.0"
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
